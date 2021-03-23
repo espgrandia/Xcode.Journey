@@ -18,3 +18,11 @@ Xcode 的相關資訊放置於此
 
   > 在 Xcode 專案中，可透過 shell script 來產出 framework 的設定方式。
 
+---
+
+## 障礙排除
+
+- [Xcode10_BuildSystem](./Xcode10_BuildSystem/README.md)
+
+  > 之前舊專案升級到 Xcode 10 時，遇到 Build System 不相容的處理方式。
+
