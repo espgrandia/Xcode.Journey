@@ -26,3 +26,8 @@ Xcode 的相關資訊放置於此
 
   > 之前舊專案升級到 Xcode 10 時，遇到 Build System 不相容的處理方式。
 
+- [Lost AppleWWDRCA Issue](./Lost_AppleWWDRCA_Issue/README.md)
+
+  > 在新 mac os 環境，匯入開發者憑證，該憑證還在有效期，
+  >
+  > 但憑證卻為失效狀態的問題排查。
