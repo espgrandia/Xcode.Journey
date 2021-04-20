@@ -31,3 +31,9 @@ Xcode 的相關資訊放置於此
   > 在新 mac os 環境，匯入開發者憑證，該憑證還在有效期，
   >
   > 但憑證卻為失效狀態的問題排查。
+
+- [Lost AppleWWDRCA Part II Issue](./Lost_AppleWWDRCA_PartII_Issue/README.md)
+
+  > 正常使用一段時間後，新增一個 iOS 的開發者憑證，遇到失效問題。
+  >
+  > 但原有的是有效的，此為排查原因。
