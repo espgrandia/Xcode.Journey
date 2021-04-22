@@ -37,3 +37,7 @@ Xcode 的相關資訊放置於此
   > 正常使用一段時間後，新增一個 iOS 的開發者憑證，遇到失效問題。
   >
   > 但原有的是有效的，此為排查原因。
+
+- [CodeSign for Keychain](./CodeSignForKeychain/README.md)
+
+  > 釐清 codesign 詢問 keychain 中的密鑰時機。
