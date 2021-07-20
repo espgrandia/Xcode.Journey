@@ -22,7 +22,7 @@ Xcode 的相關資訊放置於此
 
 ## 送審
 
-- [Xcode Archive To App Store Connect](./Xcode_Archive_Upload_To_AppStoreConnect_Using_FlutterProject/README.md)
+- [Xcode Archive Upload To App Store Connect](./Xcode_Archive_Upload_To_AppStoreConnect_Using_FlutterProject/README.md)
 
   > 說明 Flutter Project for iOS，
   >
