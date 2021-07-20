@@ -20,6 +20,20 @@ Xcode 的相關資訊放置於此
 
 ---
 
+## 送審
+
+- [Xcode Archive To App Store Connect](./Xcode_Archive_Upload_To_AppStoreConnect_Using_FlutterProject/README.md)
+
+  > 說明 Flutter Project for iOS，
+  >
+  > 如何透過 Xcode 產生對應的 archive，
+  >
+  > 並上傳到 App Store Connect。
+  >
+  > 中間有修正一些客製化的腳本來加速產出。
+
+---
+
 ## 障礙排除
 
 - [Xcode10_BuildSystem](./Xcode10_BuildSystem/README.md)
