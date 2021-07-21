@@ -99,15 +99,15 @@
 
     [Runner] [Targets] [official] [Signing & Capabilities]
 
-  以 BoTV 為例 :
+  **範例 :**
 
   - Target : official
 
   - Configuration Type : Release
 
-  - Provision Prfofile : BoTV_AdHoc
+  - Provision Prfofile : [AppName]_AdHoc
 
-    > git commit 上傳為 BoTV_AdHoc，
+    > git commit 上傳為 [AppName]_AdHoc，
     >
     > 此為內測是可以透過 gitlab CI 出版測試使用。
 
@@ -115,17 +115,17 @@
 
 - 03 - 修正 Provision Profile
 
-  [續上] : 修正可以 archive to App Store Connect 的 Provision Profile
+  [續上] : 修正可以 archive to App Store Connect 的 Provision Profile。
 
-  以 BoTV 為例 :
+  **範例 :**
 
   - Target : official
 
   - Configuration Type : Release
 
-  - Provision Prfofile : BoTV_AppStore
+  - Provision Prfofile : [AppName]_AppStore
 
-    > BoTV_AppStore 為 AppStore 形式的 Provision Profile，
+    > [AppName]_AppStore 為 AppStore 形式的 Provision Profile，
     >
     > 可上架使用的 Provision Profile。
 
