@@ -22,6 +22,10 @@ Xcode 的相關資訊放置於此
 
 ## 送審
 
+- [自動提供 缺少出口合規資訊](./Provided_Automatically_Export_Compliance/README.md)
+
+  > 說明如何在 Info.plist 設定，免除需要交付出口合規文件。
+
 - [Xcode Archive Upload To App Store Connect](./Xcode_Archive_Upload_To_AppStoreConnect_Using_FlutterProject/README.md)
 
   > 說明 Flutter Project for iOS，
