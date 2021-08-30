@@ -18,6 +18,10 @@ Xcode 的相關資訊放置於此
 
   > 在 Xcode 專案中，可透過 shell script 來產出 framework 的設定方式。
 
+- [Network Link Conditioner](./Network_Link_Conditioner/README.md)
+
+  > Apple 提供的模擬網路環境的工具， 有 Mac 以及 iPhone 啟用的方式說明。
+
 ---
 
 ## 送審
