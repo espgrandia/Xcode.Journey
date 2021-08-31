@@ -22,6 +22,10 @@ Xcode 的相關資訊放置於此
 
   > Apple 提供的模擬網路環境的工具， 有 Mac 以及 iPhone 啟用的方式說明。
 
+- [啟用系統監視器](./SystemMonitor/README.md)
+
+  > 如何透過 `系統監視器` 查看 iPhone : Devices，模擬器的 system log。
+
 ---
 
 ## 送審
