@@ -48,9 +48,13 @@ Xcode 的相關資訊放置於此
 
 ## 障礙排除
 
+**Xcode Setting :**
+
 - [Xcode10_BuildSystem](./Xcode10_BuildSystem/README.md)
 
   > 之前舊專案升級到 Xcode 10 時，遇到 Build System 不相容的處理方式。
+
+**Keychain :**
 
 - [Lost AppleWWDRCA Issue](./Lost_AppleWWDRCA_Issue/README.md)
 
@@ -67,3 +71,13 @@ Xcode 的相關資訊放置於此
 - [CodeSign for Keychain](./CodeSignForKeychain/README.md)
 
   > 釐清 codesign 詢問 keychain 中的密鑰時機。
+
+**Cocoapods :**
+
+- [Cocoapods Issues](./Cocoapods_Issues/README.md)
+
+  > 有關 cocoapods 執行過程，有時遇到的一些問題。
+
+---
+
+[=> Top](#xcode-旅程)
