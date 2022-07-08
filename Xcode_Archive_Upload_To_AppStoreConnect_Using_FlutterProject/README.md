@@ -27,6 +27,7 @@
     - [步驟](#步驟)
   - [影片說明](#影片說明)
   - [附註](#附註)
+  - [補充 (2022-07-08)](#補充-2022-07-08)
 
 ---
 ---
@@ -391,6 +392,90 @@
 - 圖片擷取日期 : 2021-06-16
 
 - 文件撰寫日期 : 2021-07-20
+
+---
+---
+
+## 補充 (2022-07-08)
+
+在 Flutter 2 之後， flutter build command line，
+
+有新增 subcommands，相關資訊如下。
+
+- flutter --version
+
+  ```sh
+  Flutter 2.10.5 • channel stable • https://github.com/flutter/flutter.git
+  Framework • revision 5464c5bac7 (3 months ago) • 2022-04-18 09:55:37 -0700
+  Engine • revision 57d3bac3dd
+  Tools • Dart 2.16.2 • DevTools 2.9.2
+  Build an executable app or install bundle.
+  ```
+
+- flutter build --help :
+
+  ```sh
+  Global options:
+  -h, --help                  Print this usage information.
+  -v, --verbose               Noisy logging, including all shell commands executed.
+                              If used with "--help", shows hidden options. If used with "flutter doctor", shows additional diagnostic information. (Use "-vv" to force verbose logging in those cases.)
+  -d, --device-id             Target device id or name (prefixes allowed).
+      --version               Reports the version of this tool.
+      --suppress-analytics    Suppress analytics reporting when this command runs.
+
+  Usage: flutter build <subcommand> [arguments]
+  -h, --help    Print this usage information.
+
+  Available subcommands:
+    aar             Build a repository containing an AAR and a POM file.
+    apk             Build an Android APK file from your app.
+    appbundle       Build an Android App Bundle file from your app.
+    bundle          Build the Flutter assets directory from your app.
+    ios             Build an iOS application bundle (Mac OS X host only).
+    ios-framework   Produces .xcframeworks for a Flutter project and its plugins for integration into existing, plain Xcode projects.
+    ipa             Build an iOS archive bundle (Mac OS X host only).
+    web             Build a web application bundle.
+
+  Run "flutter help" to see global options.
+  ```
+
+- `exported.sh` 支援 subcommands :
+
+  現在出版工具有支援的 subcommands : apk，appbundle，ios，ipa。
+
+- `preExported.sh` 優化 :
+
+  `preExported.sh` 有功能性優化，
+  
+  帶入的參數，可以指定 subcommands。
+
+  > e.g. preExported.sh ipa.apk
+  >
+  > 則會產出 ipa 跟 apk 的內容。
+  >
+  > 實際依照各個專案實作 preExported.sh 的說明。
+
+- 簡化 SOP :
+
+  可以簡化 SOP 的步驟。
+
+  - 原先的步驟概念 :
+
+    先用 `preExported.sh` 編譯，再用 Xcode IDE 產出 [xxx].xcarchive。
+
+  - 簡化後的步驟 :
+
+    可直接使用 `preExported.sh` 產出 [xxx].xcarchive。
+
+  - 說明 :
+
+    上面的步驟原則上差不多，調整完專案的 provision profile 後，
+
+    可以直接使用 `preExported.sh` 帶入 ipa 的相關設定，
+
+    將可透過 commandline 方式，產出 [xxx].xcarchive 的內容，
+
+    做後續的上傳到 App Store Connect 即可。
 
 ---
 ---
